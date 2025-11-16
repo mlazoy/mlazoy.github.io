@@ -1,0 +1,185 @@
+<html>
+<head>
+    <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar" id="navbar">
+    <a href="#about">Home</a>
+    <a href="#cv">CV</a>
+    <button id="theme-toggle">
+        <i class="fa fa-terminal" aria-hidden="true"></i>
+    </button>
+</nav>
+    <div class="content">
+        <div class="about-container" id="about">
+            <div class="profile">
+                <div id="profile-pic">
+                    <img src="./assets/prof-bos5.png" alt="Profile Picture">
+                </div>
+
+                <div class="icon-links">
+                    <a href="mailto:maria_lazou1@brown.edu" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/mlazoy" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/maria-lazou-50491b293/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div id="bio">
+                <h1>Maria Lazou </h1>
+                <span id="pronounce">/Ma-REE-ah La-ZOO/</span>
+                <p> Hi! I am expected to graduate from the Electrical & Computer Engineering Department at 
+                    <span class="uni">National Technical University of Athens</span>
+                    at the end of the current academic year (Jul '26).
+                    Currently, I am conducting my diploma thesis under the supervision of prof.
+                    <a href="http://www.cslab.ntua.gr/~goumas/" target="_blank" class="keyword">Georgios Goumas</a> and 
+                    <a href="https://nikos.vasilak.is" target="_blank" class="keyword">Nikos Vasilakis</a>.
+                    On the meantime, I am a visiting research scholar at 
+                    <span class="uni">Brown University</span> 
+                    working closely with the <a href="https://atlas.cs.brown.edu" target="_blank" class="keyword">ATLAS group</a>,
+                    which is part of the <a href="https://systems.cs.brown.edu" target="_blank" class="keyword">Systems-Computer Science</a> department.
+                    <br><br>
+                    Yet not fully oriented, I am especially interested in operating systems, security and compilers 
+                    and love exploring ideas that lie in the intersection of hardware and software 
+                    including low-level optimization techniques.
+                    <br><br>
+                    When not coding you will most probably find me running or walking around the city, taking photographs and sketching.
+                </p>
+            </div>
+        </div>
+
+        <hr style="border: none; border-top: 1px solid #5F8575; margin: 30px auto 20px auto; width: 60%;">
+
+        <div class="projects-container" id="projects">
+            <h2>Projects</h2>
+          
+            <div class="project-group">
+              <h3>ATLAS</h3>
+              <ul class="projects-list">
+                <li>
+                  <i class="fa fa-bookmark" aria-hidden="true"></i>
+                  <span>Runtime monitors for detecting shell script bugs</span><br>
+                  <span class="project-status">(in progress...)</span>
+                </li>
+                <li>
+                  <i class="fa fa-bookmark" aria-hidden="true"></i>
+                  <span>Secure offloading of partial computations into SGX enclaves</span><br>
+                  <span class="project-status">(in progress...)</span>
+                </li>
+              </ul>
+            </div>
+          
+            <div class="project-group">
+              <h3>CSLAB</h3>
+              <ul class="projects-list">
+                <li>
+                  <i class="fa fa-bookmark" aria-hidden="true"></i>
+                  <span>A survey on sparsity in ML inference</span><br>
+                  <span class="project-status">(in progress...)</span>
+                </li>
+              </ul>
+            </div>
+          
+            <div class="project-group">
+              <h3>NTUA - highlights</h3>
+              <ul class="projects-list">
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    A full 
+                    <a href="https://github.com/mlazoy/Compiler-Alan" target="_blank" class="git">compiler</a>
+                    for language ALAN
+                    <span class="project-status">(C++)</span><br>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <a href="https://github.com/mlazoy/lunix-tng" target="_blank" class="git">
+                    Lunix: </a>a simple charachter device driver implementation
+                    <span class="project-status">(C)</span><br>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <a href="https://github.com/mlazoy/ext2-light" target="_blank" class="git">
+                    Ext2-light: </a>a simple filesystem module implementation
+                    <span class="project-status">(C)</span><br>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <a href="https://github.com/mlazoy/Chord-DHT" target="_blank" class="git">
+                    Chord-DHT: </a> a complete implementation for a song DB
+                  <span class="project-status">(Rust)</span><br>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    miniML: 
+                    <a href="https://github.com/mlazoy/miniML/tree/main/Interpreter" target="_blank" class="git">a complete interpreter </a> & unit testing, 
+                    <a href="https://github.com/mlazoy/miniML/tree/main/TypeInference" target="_blank" class="git">type inference </a>& let polymorphism, and 
+                    <a href="https://github.com/mlazoy/miniML/tree/main/VirtualMachine" target="_blank" class="git">a bytecode virtual machine </a>with garbadge collector
+                    <span class="project-status">(Haskell, Haskell, Rust)</span><br>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    Exploring 
+                    <a href="https://github.com/mlazoy/Parallel" target="_blank" class="git">
+                    parallelization techniques </a>with OPENMP, MPI, CUDA
+                    <span class="project-status">(C)</span><br>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <a href="https://github.com/mlazoy/Archimedes" target="_blank" class="git">
+                    Archimedes: </a>a problem solving application built with microservices
+                    <span class="project-status">(Python)</span><br>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <a href="https://github.com/mlazoy/Ntuaflix" target="_blank" class="git">
+                    Ntuaflix: </a>a REST-API for browsing and interracting with movies & metadata
+                    <span class="project-status">(Python - JS)</span><br>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr style="border: none; border-top: 1px solid #5F8575; margin: 30px auto 20px auto; width: 60%;">
+          <div class="projects-container" id="projects">
+            <h2>Other</h2>
+          
+            <ul class="other-list">
+              <li>
+                <img src="./assets/ieeextreme.jpeg" alt="org 1" class="other-img">
+                <div class="other-desc">
+                  <strong>IEEEXtreme 24-hour contest</strong><br>
+                  Participated in IEEEXtreme.18 (ranked amog 6%), IEEEXtreme.17 (ranked among 11%), IEEEXtreme.16, IEEEXtreme.15
+                </div>
+              </li>
+          
+              <li>
+                <img src="./assets/cty.jpg" alt="org 2" class="other-img">
+                <div class="other-desc">
+                  <strong>Summer camp @ CTY-Greece</strong><br>
+                  Selected among highest scoring participants and
+                  attended courses on Computer Science (2017) & Cryptology(2016) 
+                </div>
+              </li>
+          
+              <li>
+                <img src="./assets/uniq.png" alt="org 3" class="other-img">
+                <div class="other-desc">
+                  <strong>Volunteer</strong><br>
+                  Software Workshop - a virtual escape room in the Shell!
+                </div>
+              </li>
+
+              <li>
+                <img src="./assets/asf.jpg" alt="org 4" class="other-img">
+                <div class="other-desc">
+                  <strong>Volunteer</strong><br>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
