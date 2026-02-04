@@ -324,3 +324,14 @@ body.green-mode #theme-toggle {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
   }
+
+  .doi {
+    color: #5F8575;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.paperTitle {
+    color: black;
+}
